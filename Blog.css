@@ -1,0 +1,27 @@
+.blog-main{
+    display: flex;
+
+}
+
+.blog-main .blog img{
+    width: 70%;
+    height: 90%;
+    margin-left: 50px;
+}
+.blog-main .blog-submain {
+   max-width: 60%;
+   height: fit-content;
+   margin-left: -100px;
+}
+
+.blog-main .blog1 img{
+    width: 70%;
+    height: 90%;
+    margin-left: 50px;
+    /* border-radius: 80%; */
+}
+
+
+
+
+

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pushpa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+        
+        <link rel="stylesheet" href="Home.css">
+
+    </head>
+    <body>
+
+                    <!-- navbar -->
+
+        <header>
+            <a href="#" class="logo"><i class="fas-fa-untensils"></i>Mangoo...</a>
+
+            <nav class="navbar">
+                <a class="active" href="#home">Home</a>
+                <a href="#dishes">Variety</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="Reviews.html">review</a>
+                <a href="Order.html">Orders</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="Wishlist.html" class="fas fa-heart"></a>
+                <a href="Orders.html"  class="fas fa-shopping-cart"></a>
+                <a href="Login.html" class="fas fa-solid fa-user-plus fa-beat-fade"></a>
+            </div>
+        </header>
+
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+                                <!-- carosil -->
+
+        <selection class="home" id="home">
+            <div class=" container home-slider swiper mySwiper">
+                <div class="swiper-wrapper wrapper">
+
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special Item</span>
+                            <h3>Lalbagh</h3>
+                            <p>Also known as sindura/Honey Mango because of its extreme sweetness and flavor.</p>
+                            <a href="Orders.html" class="btn">Order Now</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/rajagira.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special Item</span>
+                            <h3>Alphanso</h3>
+                            <p>Highly sweet, creamy, and pulpy texture. Rich in Vitamin C and fiber. Ideal as a snack or in smoothies, and desserts.</p>
+                            <a href="Orders.html" class="btn">Order Now</a>
+                        </div>
+                        <div class="image" >
+                            <img src="./images/Dam.jpg" alt="" style="width: 600px; margin-right: 150px;">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special Item</span>
+                            <h3>Bhadami</h3>
+                            <p>Unique sweet and rich taste. Rich in Vitamin C and fiber. Ideal as a snack or in smoothies, and desserts.</p>
+                            <a href="Orders.html" class="btn">Order Now</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/push.jfif" alt="" style="width: 600px; margin-right: 150px; background: inherit;">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </selection>
+
+
+                <!-- Dishes -->
+
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">Our Varietys</h3>
+            <h3 class="heading">popular Mangoes</h3>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/Rasapuri.webp" alt="">
+                    <h3>Rasapuri</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i> 80</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/banga.webp" alt="">
+                    <h3>Banganapalli</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i> 110</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/Badaami.webp" alt="">
+                    <h3>Bhadami</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i>120</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/sindhura.webp" alt="">
+                    <h3>Sindura</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i>65</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/Mallika.webp" alt="">
+                    <h3>Mallika</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i>160</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/raw mango.webp" alt="">
+                    <h3>Raw Mango</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i>30</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/sugar baby.webp" alt="">
+                    <h3>Sugar Baby</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i>120</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="Wishlist.html" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="./images/neelam.webp" alt="">
+                    <h3>Neelam</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span><i class="fas fa-rupee-sign"></i>50</span>
+                    <a href="./Cart.html" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+            <!-- about -->
+        <section class="about" id="about">
+            <h3 class="sub-heading">about us</h3>
+            <h1 class="heading"> why chose us?</h1>
+
+            
+            <div class="row">
+
+                <div class="image">
+                    <img src="./images/Kesar.webp" alt="pushpaaa">
+                </div>
+                <div class="content">
+                    <h3>best fruits in the country</h3>
+                    <p>pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan</p>
+                    <p>pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan pavan kalyan</p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span> Free delivery</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>easy payment</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span> 24/7 service</span>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn">learn more</a>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Menu -->
+
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">our menu</h3>
+            <h1 class="heading">Todays special sale</h1>
+
+           <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p>  kumarpavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+                        
+        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p>pavan kumar kumarpavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+                        
+        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p> pavan kumarpavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p>pavan pavan kumarpavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p>kumarpavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p> kumarpavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p>pavan kumar pavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+        
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/alphanso.jpg" alt="pavan">
+                        <a href="Wishlist.html" class="fas fa-heart"></a>
+
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Special items</h3>
+                        <p>pavan kumar pavan kumar pavan kumar</p>
+                        <span class="price"> <i class="fas fa-rupee-sign"></i>80</span><br>
+                        <a href="#" class="btn"> Add to cart</a>
+        
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+            
+        </section>
+
+        
+
+
+
+        <!-- review -->
+
+        <section>
+            <div>Reviews</div>
+        </section>
+
+
+        <!-- footer  -->
+        <section>
+            <h1 style="text-align: center;"> Footer </h1>
+            <div class="footer-container">
+                <div class="footer-content">
+                <div class="footer-column">
+                    <h4>COMPANY</h4>
+                    <ul>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="Wishlist.html">TERMS AND CONDITIONS</a></li>
+                    <li><a href="Wishlist.html">PRIVACY AND POLICY</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Discover</h4>
+                    <ul>
+                    <li><a href="Blogs.html">BLOGS</a></li>
+                    <li><a href="Wishlist.html">RECEIPTS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>SOCIAL</h4>
+                    <ul>
+                    <li><a href="Wishlist.html">INSTAGRAM</a></li>
+                    <li><a href="Wishlist.html">TWITTER</a></li>
+                    <li><a href="Wishlist.html">YOUTUBE</a></li>
+                    <li><a href="Wishlist.html">FACEBOOK</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>CONTACT US</h4>
+                    <ul>
+                    <li><a href="Wishlist.html" class="fa fa-phone"> PHONE - 9741529269</a></li>
+                    <li><a href="Wishlist.html" class="fa fa-envelope" > MAIL - pavankumarj1997@gmail.com</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="footer-bottom">
+                &copy; 2023 Mangooooo. All rights reserved.
+                </div>
+            </div>
+    </section>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <script src="Home.js" async defer></script>
+    </body>
+</html>
